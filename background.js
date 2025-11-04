@@ -1,6 +1,22 @@
 // Listens for toolbar icon clicks and injects a floating widget into the active tab.
 chrome.action.onClicked.addListener(async (tab) => {
-  
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
+// GET YOUR OWN API KEY
 
   try {
     // Check if widget already exists; if not, inject it. If it exists, do nothing so it "stays".
@@ -132,20 +148,10 @@ chrome.action.onClicked.addListener(async (tab) => {
           });
           container.appendChild(content);
           document.documentElement.appendChild(container);
-          /*
-          curl --request GET 
-	--url https://cricbuzz-cricket.p.rapidapi.com/matches/v1/live 
-	--header 'x-rapidapi-host: cricbuzz-cricket.p.rapidapi.com' 
-	--header 'x-rapidapi-key: 7c94a00246msh72d28a8133dfdbdp180b68jsn0039a13ddea7'
 
-  curl --request GET 
-	--url https://cricbuzz-cricket.p.rapidapi.com/matches/v1/live 
-	--header 'x-rapidapi-host: cricbuzz-cricket.p.rapidapi.com' 
-	--header 'x-rapidapi-key: 7c94a00246msh72d28a8133dfdbdp180b68jsn0039a13ddea7'
-          */
 
           // API URLs
-          const RAPIDAPI_KEY = "7c94a00246msh72d28a8133dfdbdp180b68jsn0039a13ddea7";
+          const RAPIDAPI_KEY = "ADD YOUR OWN KEY HERE FFS";
           const API_URL = "https://cricbuzz-cricket.p.rapidapi.com/matches/v1/live";
           const ML_API_URL = "http://127.0.0.1:5000/predict";
 
